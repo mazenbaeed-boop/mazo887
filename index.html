@@ -1,0 +1,217 @@
+
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mazen — Web Developer & Designer</title>
+  <meta name="description" content="مطور ومصمم مواقع — بورتفوليو مازن. مواقع سريعة الاستجابة، تصميم عصري، واجهات تفاعلية." />
+
+  <!-- Core style -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Libraries (CDN fallback) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+  <div class="container">
+    <header class="site-header" id="header">
+      <div class="brand">
+        <div class="logo">MZ</div>
+        <div class="brand-meta">
+          <h1>مازن — Developer & Designer</h1>
+          <div class="sub">Full‑Stack • UI/UX • Performance</div>
+        </div>
+      </div>
+
+      <nav>
+        <button class="nav-toggle" id="navToggle" aria-label="toggle menu">☰</button>
+        <ul id="navlist" class="navlist">
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#about">عنّي</a></li>
+          <li><a href="#skills">المهارات</a></li>
+          <li><a href="#projects">المشاريع</a></li>
+          <li><a href="#contact">تواصل</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-left card" data-aos="fade-up">
+        <h2 class="hero-title">أحوّل الأفكار إلى تجارب رقمية أنيقة.</h2>
+        <p class="muted">مطور ومصمم مواقع — أعمل على بناء واجهات حديثة، أداء سريع، وتجارب مستخدم واضحة.</p>
+
+        <div class="typed-wrap" aria-hidden="false">
+          <span id="typed"></span>
+        </div>
+
+        <div class="cta">
+          <a class="btn primary" href="#projects">عرض الأعمال</a>
+          <a class="btn" href="#contact">اطلب خدمة</a>
+        </div>
+
+        <div class="card info" data-aos="fade-left" data-aos-delay="120">
+          <strong>خبرة:</strong> 3+ سنوات • <strong>الموقع:</strong> Responsive • <strong>التسليم:</strong> Deployment
+        </div>
+      </div>
+
+      <aside class="card profile" data-aos="fade-left">
+        <div class="avatar">MZ</div>
+        <h3>مازن</h3>
+        <div class="muted small">مطور واجهات ومصمم تجربة مستخدم</div>
+
+        <div class="profile-actions">
+          <a class="btn" href="#contact">تواصل الآن</a>
+          <a class="btn" id="downloadCv" href="#" >تحميل السيرة</a>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <div class="card" data-aos="fade-up">
+        <h3>عنّي</h3>
+        <p>أنا مازن، مطور ومصمم مواقع أتمتع بحس بصري قوي وشغف بالتصميم العملي. أعمل على إنشاء مواقع متجاوبة وسهلة الاستخدام مع اهتمام بتحسين الأداء وتجربة المستخدم.</p>
+        <ul class="checklist muted">
+          <li>بناء واجهات تفاعلية</li>
+          <li>ربط الواجهات بالخوادم</li>
+          <li>تحسين أداء وسرعة التحميل</li>
+        </ul>
+      </div>
+
+      <div class="card mini" data-aos="zoom-in">
+        <h4>تفاصيل سريعة</h4>
+        <div class="muted"><strong>الاسم:</strong> مازن</div>
+        <div class="muted"><strong>البريد:</strong> <a href="mailto:mazenbaeed@gmail.com">mazenbaeed@gmail.com</a></div>
+        <div class="muted"><strong>الموقع:</strong> مصر</div>
+        <div style="margin-top:10px"><a class="btn" href="#projects">أعمال سابقة</a></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="card" data-aos="fade-up">
+      <h3>المهارات</h3>
+      <div class="skills">
+        <div class="skill" data-aos="flip-left" data-aos-delay="80">
+          <h4>Frontend</h4>
+          <div class="muted small">HTML / CSS / JavaScript / React / Tailwind</div>
+          <div class="bar"><span style="width:90%"></span></div>
+        </div>
+        <div class="skill" data-aos="flip-left" data-aos-delay="160">
+          <h4>Backend</h4>
+          <div class="muted small">Node.js / Express / MongoDB</div>
+          <div class="bar"><span style="width:70%"></span></div>
+        </div>
+        <div class="skill" data-aos="flip-left" data-aos-delay="240">
+          <h4>Tools</h4>
+          <div class="muted small">Git / Figma / VS Code / Netlify</div>
+          <div class="bar"><span style="width:80%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h3>المشاريع</h3>
+      <p class="muted">بعض الأعمال التي أنجزتها — انقر على أي مشروع لرؤية التفاصيل.</p>
+
+      <div class="projects-grid">
+        <article class="project card" data-title="مشروع 1" data-desc="موقع تعريفي لشركة تصميم مع نظام عرض أعمال سريع" data-url="https://melodious-kitten-0e283b.netlify.app/" data-aos="fade-up">
+          <img loading="lazy" src="assets/img/project1.jpg" alt="Project 1" onerror="this.style.opacity=0.7">
+          <div class="meta">
+            <strong>مشروع 1</strong>
+            <div class="muted">موقع تعريفي — تصميم عصري وسرعة تحميل عالية</div>
+            <div class="project-buttons">
+              <button class="btn small view">عرض</button>
+              <a class="btn small" href="https://melodious-kitten-0e283b.netlify.app/" target="_blank" rel="noopener">زيارة</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project card" data-title="مشروع 2" data-desc="متجر إلكتروني تجريبي مع صفحة الدفع" data-url="#" data-aos="fade-up" data-aos-delay="80">
+          <img loading="lazy" src="assets/img/project2.jpg" alt="Project 2">
+          <div class="meta">
+            <strong>مشروع 2</strong>
+            <div class="muted">E‑commerce — تجربة مستخدم مبسطة</div>
+            <div class="project-buttons">
+              <button class="btn small view">عرض</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="project card" data-title="مشروع 3" data-desc="واجهة لوحة تحكم إدارية لصفحات المحتوى" data-url="#" data-aos="fade-up" data-aos-delay="160">
+          <img loading="lazy" src="assets/img/project3.jpg" alt="Project 3">
+          <div class="meta">
+            <strong>مشروع 3</strong>
+            <div class="muted">Dashboard — نظام إدارة محتوى</div>
+            <div class="project-buttons">
+              <button class="btn small view">عرض</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="project card" data-title="مشروع 4" data-desc="صفحة هبوط لمنتج بتأثيرات CSS متقدمة" data-url="#" data-aos="fade-up" data-aos-delay="240">
+          <img loading="lazy" src="assets/img/project4.jpg" alt="Project 4">
+          <div class="meta">
+            <strong>مشروع 4</strong>
+            <div class="muted">Landing Page — تحويل الزوار إلى عملاء</div>
+            <div class="project-buttons">
+              <button class="btn small view">عرض</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="card" data-aos="fade-up">
+      <h3>تواصل معي</h3>
+      <p class="muted">هل لديك مشروع؟ أرسل لي رسالة وسأرد بأقرب وقت.</p>
+
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="name" placeholder="اسمك" required>
+        <input type="email" id="email" placeholder="بريدك الإلكتروني" required>
+        <textarea id="message" placeholder="رسالتك" required></textarea>
+        <button class="btn primary" type="submit">إرسال</button>
+      </form>
+
+      <div class="muted" style="margin-top:12px">
+        <div>أو تواصل عبر: <a href="mailto:mazenbaeed@gmail.com" class="gold">mazenbaeed@gmail.com</a></div>
+        <div style="margin-top:6px">روابط: 
+          <a href="#" class="muted">GitHub</a> • <a href="#" class="muted">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> مازن — Web Developer. كل الحقوق محفوظة.
+    </footer>
+  </div>
+
+  <!-- Modal for project preview -->
+  <div id="modal" class="modal" aria-hidden="true" role="dialog">
+    <div class="modal-inner">
+      <button class="modal-close" aria-label="close modal">&times;</button>
+      <h4 id="modalTitle"></h4>
+      <p id="modalDesc"></p>
+      <div class="modal-actions">
+        <a id="modalVisit" class="btn" href="#" target="_blank" rel="noopener">فتح العرض</a>
+        <button id="modalDemo" class="btn">إغلاق</button>
+      </div>
+    </div>
+  </div>
+
+  <button id="backTop" title="Top">↑</button>
+
+  <!-- Libraries from CDN (fast & reliable) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <!-- Main script -->
+  <script src="js/main.js"></script>
+</body>
+</html>
